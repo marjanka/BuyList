@@ -1,0 +1,199 @@
+body{
+    background: #CACAC8;
+}
+
+.bl-background {
+    background: #CACAC8;
+    /* padding: 20px;*/
+    margin-top: 110px;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    min-width: 500px;
+    margin: auto;
+}
+
+.bl-list {
+    background: white;
+    width: 95%;
+    border-radius: 2%;
+}
+
+.bl-add{
+    margin: 10px;
+    line-height: 30px;
+    width: 82%;
+}
+
+.bl-bought {
+    border-radius: 3%;
+    line-height: 50px;
+    background: white;
+    width: 30%;
+    float: right;
+    
+}
+
+.bl-product {
+    float: left;
+    width: 30%;
+    
+}
+
+.bl-item{
+    display: inline;
+    width: 20%;
+    padding:8px;
+    background: #E5E4E2;
+    margin:3px;
+    border-radius: 7%;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+    font-family:"Lucida Calligraphy",cursive, sans-serif;
+
+}
+.bl-product .item {
+    padding-left: 25px;
+     line-height: 50px;
+     font-family:"Lucida Calligraphy",cursive, sans-serif;
+}
+
+
+.bl-row {
+    height: 60px;
+    overflow: hidden;
+    border-top: 1px solid gray;
+    padding-top: 10px;
+
+}
+
+.bl-title{
+    font-weight: bold;
+     font-family:"Lucida Calligraphy",cursive, sans-serif;
+     font-size: 20px;
+    border-top: 1px solid gray;
+     padding: 8px;
+     padding-left:20px;
+
+}
+
+.bl-need{
+    border-top: 1px solid gray;
+    padding: 10px;
+}
+
+.bl-count{
+    line-height: 50px;
+     text-indent: 85px ;
+}
+
+.bl-buttons {
+    line-height: 50px;
+    width: 25%;
+    float: right;
+  text-align: right;
+  padding-right: 30px;
+}
+.bl-left{
+    width: 70%;
+}
+/*ÐšÐ½Ð¾Ð¿ÐºÐ¸*/
+.bl-label {
+    background: #cdcbcb;
+    font-size: 14px;
+    padding-right: 11px;
+    padding-left: 11px;
+    padding-top: 7px;
+    padding-bottom: 6px;
+    border-radius: 20%;
+
+}
+.bl-plus {
+    background: #04a613;
+     color: white;
+    border: 0px;
+    outline: none;
+    border-radius: 50%;
+    padding-right: 10px;
+    padding-left: 9px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.bl-minus {
+    background: #FF9477;
+    color: white;
+    border: 0px;
+    outline: none;
+    border-radius: 50%;
+    padding-right: 10px;
+    padding-left: 9px;
+    padding-top: 3px;
+    padding-bottom: 4px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.btn-add{
+    background: #1462CE;
+    color: white;
+    border: 0px;
+     padding-right: 14px;
+    padding-left: 14px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline;
+    font-size: 15px;
+    font-family:"Lucida Calligraphy",cursive, sans-serif;
+    font-weight: bolder;
+     border-radius: 10%;
+}
+
+.bl-ok{
+background: #E5E4E2;
+    color: black;
+    border: 0px;
+    padding: 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline;
+    font-size: 14px;
+    font-family:"Lucida Calligraphy",cursive, sans-serif;
+    font-weight: bolder;
+    border-radius: 10%;
+}
+
+.bl-delete{
+background: #E10000;
+    color: white;
+    border: 0px;
+    padding-right: 13px;
+    padding-left: 13px;
+    padding-top: 8px;
+    padding-bottom: 9px;
+    text-align: center;
+    text-decoration: none;
+    display: inline;
+    font-size: 15px;
+    font-family:Geneva;
+    font-weight: bolder;
+    border-radius: 15%;
+}
+
+.need-to-buy{
+    background:#F87217;
+    color:white;
+    font-size: 12px;
+    padding-right: 7px;
+    padding-left: 7px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-radius: 50%;
+}
