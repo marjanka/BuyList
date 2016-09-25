@@ -131,6 +131,7 @@ body{
 
 .sticker:hover{
     transform:translateY(-100px);
+    background-color: #842DCE;
 }
 
 .buy{
@@ -259,8 +260,9 @@ button::before{
     top: -40px;
     left: 50%;
     margin-left: -50px; 
-    width: 80px;
+    width: 75px;
     height: 40px;
+    border-radius: 10%;
     font-size: 14px;
     font-family:"Lucida Calligraphy",cursive, sans-serif;
     background-color: #FFA5E1;
@@ -279,7 +281,7 @@ button:hover::before{
    .sticker{
     background: white;
     color: black;
-    border: 3px solid black;
+    border: 3px solid #AD0E6F;
 } 
 
 .buy{
