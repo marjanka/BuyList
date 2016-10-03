@@ -17,81 +17,48 @@
                         <input class ="bl-add" placeholder="Here need to write the name of product" type="text" />
                         <button class = "btn-add" data-tooltip=" Add new product"> Add</button>
                     </div>
-                    <div class="bl-row" >
-                        <div class="bl-product">
-                            <div class = "item">
-                                Tomatoes
-                            </div>
-                        </div>
-                        <div class="bl-buttons">
-                            <button class="bl-ok" data-tooltip="Done">Bought</button>
-                            <button class="bl-delete" data-tooltip="Delete from list">X</button> 
-                        </div>
-                        <div class="bl-count">
-                            <button class="bl-minus" data-tooltip="Delete one more">-</button>
-                            <span class="bl-label">1</span>
-                            <button class="bl-plus" data-tooltip="Add one more">+</button>
-                        </div>
-                    </div>
-                    <div class="bl-row">
-                        <div class="bl-product">
-                            <div class = "item">
-                                Cookies
-                            </div>
-                        </div>
-                        <div class="bl-buttons">
-                            <button class="bl-ok" data-tooltip="Done">Bought</button>
-                            <button class="bl-delete" data-tooltip="Delete from list">X</button> 
-                        </div>
-                        <div class="bl-count">
-                            <button class="bl-minus" data-tooltip="Delete one more">-</button>
-                            <span class="bl-label">1</span>
-                            <button class="bl-plus" data-tooltip="Add one more">+</button>
-                        </div>
-                    </div>
-                    <div class="bl-row">
-                        <div class="bl-product">
-                            <div class = "item">
-                                Cheese
-                            </div>
-                        </div>
-                        <div class="bl-buttons">
-                            <button class="bl-ok" data-tooltip="Done">Bought</button>
-                            <button class="bl-delete" data-tooltip="Delete from list">X</button> 
-                        </div>
-                        <div class="bl-count">
-                            <button class="bl-minus" data-tooltip="Delete one more">-</button>
-                            <span class="bl-label">1</span>
-                            <button class="bl-plus" data-tooltip="Add one more">+</button>
-                        </div>
-                    </div>
                 </div>
             </div>
 
-            <div class="bl-bought">
+            <div class="bl-right">
                 <div class="bl-title">Need to buy</div>
                 <div class="bl-need">
-                    <div class = "bl-item">
-                        Tomatoes
-                        <span class="need-to-buy">1</span>
-                    </div>
-                    <div class = "bl-item">
-                        Cookies
-                        <span class="need-to-buy">1</span>
-                    </div>
-                    <div class = "bl-item">
-                        Cheese
-                        <span class="need-to-buy">1</span>
-                    </div>
                 </div>
                 <div class="bl-title">Bought</div>
                 <div class="already-bought">
-                    <div class = "bl-item">
-                        Tomatoes
-                        <span class="need-to-buy">1</span>
-                    </div>
                 </div>
             </div> 
+
+            <div class = "need-template" style="display:none">
+                <span class="almost-bought">
+                <span class="bl-item">Tomatoes</span>
+                <span class="need-to-buy">1</span></span>
+            </div>
+
+            <div class = "bought-template" style="display:none">
+                <span class="bought">
+                <span class="bl-item">Tomatoes</span>
+                <span class="need-to-buy">1</span></span>
+            </div>
+
+<div class="row-template" style="display:none">
+        <div class="bl-row clearfix" >
+            <div class="bl-product">
+                <span class = "item"> Tomatoes </span>  
+                    <input class ="item-title" placeholder="Product" type="text" />
+            </div>
+            <div class="bl-count">
+                <button class="bl-minus" data-tooltip="Delete one more">-</button>
+                <span class="bl-label">1</span>
+                <button class="bl-plus" data-tooltip="Add one more">+</button>
+            </div>
+            <div class="bl-buttons">
+                <button class="bl-ok" data-tooltip="Done">Bought</button>
+                <button class="bl-delete" data-tooltip="Delete from list">X</button> 
+                 <button class="bl-unBought" data-tooltip="UnBought">UnBought</button>
+            </div>
+        </div>
+    </div>
 
         </div>
     </div>
@@ -101,7 +68,9 @@
         <div class="buy">Buy List</div>
         <div class="created">Created by:</div>
         <div class="name"> Mariana Leskiv</div>
+    </div>    
 
-    </div>
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js">   </script>
+<script type="text/javascript" src="main.js">    </script>
 </body>
 </html>

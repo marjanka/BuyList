@@ -4,8 +4,8 @@ body{
 
 .bl-background {
     background: #CACAC8;
-    /* padding: 20px;*/
-    margin-top: 110px;
+    /* padding: 20px; margin-top: 110px;*/
+    margin-top: 5%;
 }
 
 .container {
@@ -27,15 +27,22 @@ body{
     width: 75%;
 }
 
-.bl-bought {
+.bl-left{
+    width: 67%;
+    float: left;
+    position: relative;
+}
+
+.bl-right {
+    float: right;
     border-radius: 3%;
     line-height: 50px;
     background: white;
     width: 30%;
     float: right;
     border: 1px solid gray;
-    margin-top: -275px;
-    /* margin-top: -25%;*/
+    /* margin-top: -275px;
+    margin-top: -25%;*/
 }
 
 .bl-product {
@@ -79,7 +86,8 @@ body{
     padding-left:20px;
 }
 
-.bl-need, .already-bought{
+.bl-need, 
+.already-bought{
     border-top: 1px solid gray;
     padding: 10px;
 }
@@ -100,10 +108,6 @@ body{
     position: absolute;
 }
 
-.bl-left{
-    width: 70%;
-}
-
 .bl-text{
     position: relative;
     border: 1px solid gray;
@@ -111,6 +115,10 @@ body{
 
 .already-bought .bl-item{
     text-decoration: line-through;
+}
+
+.item-title{
+   /* display: none;*/
 }
 
 .sticker{
@@ -207,7 +215,7 @@ body{
     border-radius: 10%;
 }
 
-.bl-ok{
+.bl-ok, .bl-unBought{
     background: #E5E4E2;
     color: black;
     border: 0px;
@@ -247,6 +255,35 @@ body{
     padding-top: 3px;
     padding-bottom: 3px;
     border-radius: 50%;
+}
+
+.stateNonBought .bl-unBought, 
+.stateNonBought .bought{
+display: none;
+}
+
+.stateBought .bl-ok, 
+.stateBought .bl-delete, 
+.stateBought .bl-plus, 
+.stateBought .bl-minus{
+display: none;
+}
+
+.stateBought .item{
+text-decoration: line-through;
+}
+
+.editedName .item,
+.firstName .item-title {
+  display: none;  
+}
+
+.stateBought.almost-bought{
+    display:none;
+}
+
+.stateNonBought.bought{
+    display:none;
 }
 
 button{
@@ -304,7 +341,7 @@ button:hover::before{
         margin-top: 0px;
     }
 
-    .bl-bought{
+    .bl-right{
         width: 100%;
         margin-top: 0;
     }
